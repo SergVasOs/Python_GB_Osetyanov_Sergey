@@ -1,10 +1,10 @@
-#3.  Реализовать функцию my_func(), которая принимает три позиционных
+# 3. Реализовать функцию my_func(), которая принимает три позиционных
 # аргумента и возвращает сумму наибольших двух аргументов.
 
 def my_func(a, b, c):
     list_of_args = [a, b, c]
     sum = max(list_of_args)
-    list_of_args.remove(sum) 
+    list_of_args.remove(sum)
     sum += max(list_of_args)
     return sum
 
